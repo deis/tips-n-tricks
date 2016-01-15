@@ -1,0 +1,3 @@
+# cat ~/.kubes/chorizo/env
+export KUBE_TARGET=chorizo
+export KUBECONFIG=/Users/jhansen/.kubes/chorizo/clusters/chorizo/kubeconfig

@@ -1,0 +1,9 @@
+~ $ chkube
+Usage: /Users/jhansen/.files/bin/chkube {list|clear|name}
+~ $ chkube list
+chorizo		copa		micro-local
+~ $ chkube chorizo
+export KUBE_TARGET=chorizo
+export KUBECONFIG=/Users/jhansen/.kubes/chorizo/clusters/chorizo/kubeconfig
+~ $ eval $(chkube chorizo)
+k:chorizo ~ $
